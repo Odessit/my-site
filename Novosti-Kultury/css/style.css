@@ -55,20 +55,7 @@ ul, li {
 	padding: 45px 0 46px;
 	background-image: url(../img/Hotel-11.jpg);
 }
-.promo__inner {
-	margin-top: 87px;
-	position: relative;
-}
-.promo__inner::before {
-	content: "";
-	position: absolute;
-	width: 55px;
-	height: 55px;
-	left: 50%;
-	top: 264px;
-	background: #FF7931 url(../img/gallery_ico.svg) no-repeat 50% 40%;
-	border-radius: 50%;
-}
+
 .promo__title {
 	font-size: 72px;
 	line-height: 84px;
