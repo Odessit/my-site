@@ -1,0 +1,228 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	min-width: 100%;
+	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Playfair Display', serif; */
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	color: #000000;
+	margin: 0;
+}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0;
+}
+.header {
+	min-height: 218px;
+	padding: 60px 0 40px;
+}
+.header__title,
+.footer__title {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 47px;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.header__nav ul,
+.footer__nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+.header__nav a,
+.footer__nav a {
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 2px;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.promo {
+	min-height: 464px;
+	padding: 45px 0 46px;
+	background-image: url(../img/Hotel-11.jpg);
+}
+.promo__inner {
+	margin-top: 87px;
+}
+.promo__inner::before {
+	content: "";
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	left: 693px;
+	top: 264px;
+	background: #FF7931 url(../img/gallery_ico.svg) no-repeat 50% 40%;
+	border-radius: 50%;
+}
+.promo__title {
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 134px;
+}
+.promo__text {
+	width: 460px;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+}
+.reviews {
+	min-height: 463px;
+	padding: 40px 0 50px;
+}
+.reviews-title {
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.reviews__items {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.reviews__item {
+	max-width: 370px;
+	color: #000;
+	text-decoration: none;
+}
+.reviews__item:hover .reviews__title {
+	color: #FF7931;
+}
+.reviews__title {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 31px;
+	padding: 15px 0 10px;
+}
+.offers {
+	min-height: 556px;
+	background-color: #F7F7F7;
+}
+.offers__items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url(../img/Ellipse.png) no-repeat 50% 50%;
+	padding: 30px 0 35px;
+}
+/* .offers__items {
+	margin: 0 auto;
+} */
+.offers__title {
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-bottom: 35px;
+}
+.offers__item {
+	width: 370px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 50px;
+}
+.offers__item:nth-child(2)::after,
+.offers__item:nth-child(3)::after {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.2);
+	left: 37%;
+	bottom: -30px;
+}
+.main-abonements article:nth-child(2)::after, .main-abonements article:nth-child(3)::after
+.offers-title {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 31px;
+	text-align: center;
+}
+.offers__btn {
+	position: relative;
+	background: #FF7931;
+}
+.offers__btn::after {
+	content: "";
+	position: absolute;
+	top: 11px;
+   right: 29px;
+	width: 24px;
+	height: 25px;
+	background: url(../img/Arrow-forward.svg);
+}
+.offers__btn a {
+	display: block;
+	padding: 16px 60px 17px 30px;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer {
+	padding: 25px 0 45px;
+	background: #575757;
+}
+.footer__title,
+.footer__nav a {
+	color: #fff;
+}
+.footer__nav {
+	padding-bottom: 45px;
+	border-bottom: 1px solid rgba(255,255,255, 0.2)
+}
+.footer__nav a:hover,
+.header__nav a:hover {
+	color: #FF7931;
+}
+.footer__icon {
+	padding-top: 42px;
+	display: flex;
+   justify-content: center;
+}
+.footer__icon a {
+	display: inline-block;
+	width: 47px;
+	height: 47px;
+	background-color: #fff;
+}
+.footer__icon a + a {
+	margin-left: 14px;
+}
+.icon-insta {
+	background: url(../img/icon-insta.svg) no-repeat 50% 50%;
+}
+.icon-fb {
+	background: url(../img/icon-fb.svg) no-repeat 50% 50%;
+}
+.icon-tw {
+	background: url(../img/icon-tw.svg) no-repeat 50% 50%;
+}
