@@ -57,13 +57,14 @@ ul, li {
 }
 .promo__inner {
 	margin-top: 87px;
+	position: relative;
 }
 .promo__inner::before {
 	content: "";
 	position: absolute;
 	width: 55px;
 	height: 55px;
-	left: 693px;
+	left: 50%;
 	top: 264px;
 	background: #FF7931 url(../img/gallery_ico.svg) no-repeat 50% 40%;
 	border-radius: 50%;
