@@ -33,7 +33,7 @@ ul, li {
 	font-size: 35px;
 	line-height: 47px;
 	letter-spacing: 1px;
-	margin-bottom: 50px;
+	margin-bottom: 45px;
 	text-align: center;
 }
 .header__nav ul,
@@ -56,16 +56,15 @@ ul, li {
 	background-image: url(../img/Hotel-11.jpg);
 }
 .promo__inner {
-	margin-top: 87px;
-	position: relative;
+	margin-top: 88px;
 }
 .promo__inner::before {
 	content: "";
 	position: absolute;
 	width: 55px;
 	height: 55px;
-	left: 50%;
-	top: 264px;
+	left: 557px;
+	top: -87px;
 	background: #FF7931 url(../img/gallery_ico.svg) no-repeat 50% 40%;
 	border-radius: 50%;
 }
@@ -86,7 +85,7 @@ ul, li {
 }
 .reviews {
 	min-height: 463px;
-	padding: 40px 0 50px;
+	padding: 44px 0 50px;
 }
 .reviews-title {
 	font-weight: bold;
@@ -94,6 +93,7 @@ ul, li {
 	line-height: 20px;
 	text-align: center;
 	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
 .reviews__items {
@@ -155,7 +155,6 @@ ul, li {
 	left: 37%;
 	bottom: -30px;
 }
-.main-abonements article:nth-child(2)::after, .main-abonements article:nth-child(3)::after
 .offers-title {
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
@@ -174,7 +173,7 @@ ul, li {
    right: 29px;
 	width: 24px;
 	height: 25px;
-	background: url(../img/Arrow-forward.svg);
+	background: url(../img/Arrow-forward.svg) no-repeat 50% 50%;
 }
 .offers__btn a {
 	display: block;
@@ -190,6 +189,7 @@ ul, li {
 }
 .footer {
 	padding: 25px 0 45px;
+	margin-top: 50px;
 	background: #575757;
 }
 .footer__title,
